@@ -54,14 +54,7 @@ Here are a few potential solutions we have in mind:
 **Add the ConfigureSwaggerOptions( Configures the Swagger generation options) class in your codde.**
 
 
- using Microsoft.AspNetCore.Mvc.ApiExplorer;
-using Microsoft.Extensions.Options;
-using Microsoft.OpenApi.Models;
-using Swashbuckle.AspNetCore.SwaggerGen;
-
-namespace FalconAPI
-{
-    public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
+  public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
     {
         readonly IApiVersionDescriptionProvider provider;
 
@@ -97,9 +90,6 @@ namespace FalconAPI
             return info;
         }
     }
-
-}
-
 
 
 
