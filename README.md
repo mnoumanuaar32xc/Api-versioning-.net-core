@@ -50,37 +50,25 @@ Here are a few potential solutions we have in mind:
 **Ist add the following nuget Pkgs**
 ![image](https://github.com/user-attachments/assets/2ecd8512-103c-4cae-b587-4aaa8cc5a1e2)
 **Add the ConfigureSwaggerOptions( Configures the Swagger generation options) class in your codde.**
+
 [Uploading ConfigureSwaggerOptions.cs…]()
 
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.Extensions.Options;
-using Microsoft.Extensions.Primitives;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
-using System.Text;
 
 namespace FalconAPI
 {
-    /// <summary>
-    /// Configures the Swagger generation options.
-    /// </summary>
-    /// <remarks>This allows API versioning to define a Swagger document per API version after the
-    /// <see cref="IApiVersionDescriptionProvider"/> service has been resolved from the service container.</remarks>
     public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
     {
         readonly IApiVersionDescriptionProvider provider;
 
-        /// <summary>
-        /// Initializes a new instance of the <see cref="ConfigureSwaggerOptions"/> class.
-        /// </summary>
-        /// <param name="provider">The <see cref="IApiVersionDescriptionProvider">provider</see> used to generate Swagger documents.</param>
         public ConfigureSwaggerOptions(IApiVersionDescriptionProvider provider) => this.provider = provider;
 
         /// <inheritdoc />
         public void Configure(SwaggerGenOptions options)
         {
-            // add a swagger document for each discovered API version
-            // note: you might choose to skip or document deprecated API versions differently
             foreach (var description in provider.ApiVersionDescriptions)
             {
                 options.SwaggerDoc(description.GroupName, CreateInfoForApiVersion(description));
@@ -112,6 +100,8 @@ namespace FalconAPI
 }
 
 
+
+ 
 **Register the Api versioning and versioning api explorer in Program.Cs**
 ![image](https://github.com/user-attachments/assets/9f7a3485-cc9c-407b-9021-cdc202752258)
 
