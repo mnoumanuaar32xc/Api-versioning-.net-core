@@ -50,7 +50,9 @@ Here are a few potential solutions we have in mind:
 **Ist add the following nuget Pkgs**
 ![image](https://github.com/user-attachments/assets/2ecd8512-103c-4cae-b587-4aaa8cc5a1e2)
 **Add the ConfigureSwaggerOptions( Configures the Swagger generation options) class in your codde.**
-[Uploading ConfigureSwaggerOptions.cs…]()using Microsoft.AspNetCore.Mvc.ApiExplorer;
+[Uploading ConfigureSwaggerOptions.cs…]()
+
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Primitives;
 using Microsoft.OpenApi.Models;
