@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FalconAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f2b4dab701f3d0ca6ecb0ca87520e9875bb8e7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43f94c43ad428fa27fba94140e0a1028dffc22f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("FalconAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FalconAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

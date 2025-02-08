@@ -14,7 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\v1\Authentication\" />
     <Folder Include="Controllers\v1\Users\" />
   </ItemGroup>
 

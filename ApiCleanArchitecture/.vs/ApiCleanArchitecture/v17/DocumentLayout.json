@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Nouman\\Training\\CleanArchitecture_Api_CQRSAndMediatR\\ApiCleanArchitecture\\",
+  "WorkspaceRootPath": "D:\\Nouman\\Training\\CleanArchitecture_CQRS\\ApiCleanArchitecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|d:\\nouman\\training\\cleanarchitecture_api_cqrsandmediatr\\apicleanarchitecture\\falconapi\\todao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|solutionrelative:falconapi\\todao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|d:\\nouman\\training\\cleanarchitecture_api_cqrsandmediatr\\apicleanarchitecture\\falconapi\\configureswaggeroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|solutionrelative:falconapi\\configureswaggeroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|d:\\nouman\\training\\cleanarchitecture_api_cqrsandmediatr\\apicleanarchitecture\\falconapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|d:\\nouman\\training\\cleanarchitecture_cqrs\\apicleanarchitecture\\falconapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|solutionrelative:falconapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|d:\\nouman\\training\\cleanarchitecture_api_cqrsandmediatr\\apicleanarchitecture\\falconapi\\controllers\\v2\\companies\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|d:\\nouman\\training\\cleanarchitecture_cqrs\\apicleanarchitecture\\falconapi\\configureswaggeroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|solutionrelative:falconapi\\configureswaggeroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|d:\\nouman\\training\\cleanarchitecture_cqrs\\apicleanarchitecture\\falconapi\\controllers\\v2\\companies\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|solutionrelative:falconapi\\controllers\\v2\\companies\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|d:\\nouman\\training\\cleanarchitecture_api_cqrsandmediatr\\apicleanarchitecture\\falconapi\\controllers\\v1\\companies\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|d:\\nouman\\training\\cleanarchitecture_cqrs\\apicleanarchitecture\\falconapi\\controllers\\v1\\companies\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|solutionrelative:falconapi\\controllers\\v1\\companies\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|d:\\nouman\\training\\cleanarchitecture_cqrs\\apicleanarchitecture\\falconapi\\falconapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|solutionrelative:falconapi\\falconapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|d:\\nouman\\training\\cleanarchitecture_cqrs\\apicleanarchitecture\\falconapi\\todao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}|FalconAPI\\FalconAPI.csproj|solutionrelative:falconapi\\todao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,67 +54,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Todao.cs",
-              "DocumentMoniker": "D:\\Nouman\\Training\\CleanArchitecture_Api_CQRSAndMediatR\\ApiCleanArchitecture\\FalconAPI\\Todao.cs",
-              "RelativeDocumentMoniker": "FalconAPI\\Todao.cs",
-              "ToolTip": "D:\\Nouman\\Training\\CleanArchitecture_Api_CQRSAndMediatR\\ApiCleanArchitecture\\FalconAPI\\Todao.cs",
-              "RelativeToolTip": "FalconAPI\\Todao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T20:20:42.203Z",
+              "DocumentIndex": 4,
+              "Title": "FalconAPI",
+              "DocumentMoniker": "D:\\Nouman\\Training\\CleanArchitecture_CQRS\\ApiCleanArchitecture\\FalconAPI\\FalconAPI.csproj",
+              "RelativeDocumentMoniker": "FalconAPI\\FalconAPI.csproj",
+              "ToolTip": "D:\\Nouman\\Training\\CleanArchitecture_CQRS\\ApiCleanArchitecture\\FalconAPI\\FalconAPI.csproj",
+              "RelativeToolTip": "FalconAPI\\FalconAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-08T06:51:47.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConfigureSwaggerOptions.cs",
-              "DocumentMoniker": "D:\\Nouman\\Training\\CleanArchitecture_Api_CQRSAndMediatR\\ApiCleanArchitecture\\FalconAPI\\ConfigureSwaggerOptions.cs",
-              "RelativeDocumentMoniker": "FalconAPI\\ConfigureSwaggerOptions.cs",
-              "ToolTip": "D:\\Nouman\\Training\\CleanArchitecture_Api_CQRSAndMediatR\\ApiCleanArchitecture\\FalconAPI\\ConfigureSwaggerOptions.cs",
-              "RelativeToolTip": "FalconAPI\\ConfigureSwaggerOptions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T20:07:27.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CompaniesController.cs",
-              "DocumentMoniker": "D:\\Nouman\\Training\\CleanArchitecture_Api_CQRSAndMediatR\\ApiCleanArchitecture\\FalconAPI\\Controllers\\v2\\Companies\\CompaniesController.cs",
+              "DocumentMoniker": "D:\\Nouman\\Training\\CleanArchitecture_CQRS\\ApiCleanArchitecture\\FalconAPI\\Controllers\\v2\\Companies\\CompaniesController.cs",
               "RelativeDocumentMoniker": "FalconAPI\\Controllers\\v2\\Companies\\CompaniesController.cs",
-              "ToolTip": "D:\\Nouman\\Training\\CleanArchitecture_Api_CQRSAndMediatR\\ApiCleanArchitecture\\FalconAPI\\Controllers\\v2\\Companies\\CompaniesController.cs",
+              "ToolTip": "D:\\Nouman\\Training\\CleanArchitecture_CQRS\\ApiCleanArchitecture\\FalconAPI\\Controllers\\v2\\Companies\\CompaniesController.cs",
               "RelativeToolTip": "FalconAPI\\Controllers\\v2\\Companies\\CompaniesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T19:44:18.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "CompaniesController.cs",
-              "DocumentMoniker": "D:\\Nouman\\Training\\CleanArchitecture_Api_CQRSAndMediatR\\ApiCleanArchitecture\\FalconAPI\\Controllers\\v1\\Companies\\CompaniesController.cs",
+              "DocumentMoniker": "D:\\Nouman\\Training\\CleanArchitecture_CQRS\\ApiCleanArchitecture\\FalconAPI\\Controllers\\v1\\Companies\\CompaniesController.cs",
               "RelativeDocumentMoniker": "FalconAPI\\Controllers\\v1\\Companies\\CompaniesController.cs",
-              "ToolTip": "D:\\Nouman\\Training\\CleanArchitecture_Api_CQRSAndMediatR\\ApiCleanArchitecture\\FalconAPI\\Controllers\\v1\\Companies\\CompaniesController.cs",
+              "ToolTip": "D:\\Nouman\\Training\\CleanArchitecture_CQRS\\ApiCleanArchitecture\\FalconAPI\\Controllers\\v1\\Companies\\CompaniesController.cs",
               "RelativeToolTip": "FalconAPI\\Controllers\\v1\\Companies\\CompaniesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T19:34:17.315Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "ConfigureSwaggerOptions.cs",
+              "DocumentMoniker": "D:\\Nouman\\Training\\CleanArchitecture_CQRS\\ApiCleanArchitecture\\FalconAPI\\ConfigureSwaggerOptions.cs",
+              "RelativeDocumentMoniker": "FalconAPI\\ConfigureSwaggerOptions.cs",
+              "ToolTip": "D:\\Nouman\\Training\\CleanArchitecture_CQRS\\ApiCleanArchitecture\\FalconAPI\\ConfigureSwaggerOptions.cs",
+              "RelativeToolTip": "FalconAPI\\ConfigureSwaggerOptions.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAxwCIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T20:07:27.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Nouman\\Training\\CleanArchitecture_Api_CQRSAndMediatR\\ApiCleanArchitecture\\FalconAPI\\Program.cs",
+              "DocumentMoniker": "D:\\Nouman\\Training\\CleanArchitecture_CQRS\\ApiCleanArchitecture\\FalconAPI\\Program.cs",
               "RelativeDocumentMoniker": "FalconAPI\\Program.cs",
-              "ToolTip": "D:\\Nouman\\Training\\CleanArchitecture_Api_CQRSAndMediatR\\ApiCleanArchitecture\\FalconAPI\\Program.cs",
+              "ToolTip": "D:\\Nouman\\Training\\CleanArchitecture_CQRS\\ApiCleanArchitecture\\FalconAPI\\Program.cs",
               "RelativeToolTip": "FalconAPI\\Program.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAswCMAAAA9AAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAADMAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T19:25:27.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Todao.cs",
+              "DocumentMoniker": "D:\\Nouman\\Training\\CleanArchitecture_CQRS\\ApiCleanArchitecture\\FalconAPI\\Todao.cs",
+              "RelativeDocumentMoniker": "FalconAPI\\Todao.cs",
+              "ToolTip": "D:\\Nouman\\Training\\CleanArchitecture_CQRS\\ApiCleanArchitecture\\FalconAPI\\Todao.cs",
+              "RelativeToolTip": "FalconAPI\\Todao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T20:20:42.203Z",
               "EditorCaption": ""
             }
           ]

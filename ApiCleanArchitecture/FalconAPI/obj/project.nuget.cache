@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pbBBafpm+o0=",
+  "dgSpecHash": "GZ9UF6frpaM=",
   "success": true,
-  "projectFilePath": "D:\\Nouman\\Training\\CleanArchitecture_Api_CQRSAndMediatR\\ApiCleanArchitecture\\FalconAPI\\FalconAPI.csproj",
+  "projectFilePath": "D:\\Nouman\\Training\\CleanArchitecture_CQRS\\ApiCleanArchitecture\\FalconAPI\\FalconAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.1.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512",

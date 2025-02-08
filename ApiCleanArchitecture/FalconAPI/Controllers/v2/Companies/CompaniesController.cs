@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace FalconAPI.Controllers.v2.Companies
 {
 
@@ -15,7 +13,7 @@ namespace FalconAPI.Controllers.v2.Companies
         public async Task<IEnumerable<string>> GetCompanies()
         {
             // Example list of companies
-            var companies = new List<string> { "CompanyA" };
+            var companies = new List<string> { "CompanyA", "CompanyB", "CompanyC" };
             return await Task.FromResult(companies);
         }
     }
