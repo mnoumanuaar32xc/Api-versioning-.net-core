@@ -30,7 +30,10 @@ API versioning is like labeling different editions of a book. It helps developer
 Overall, API versioning helps keep everything organized and user-friendly as the API grows and improves.
 
 **Implementation of Api Versioning in .net Core**
+
 ![image](https://github.com/user-attachments/assets/28b90ca9-f998-49be-85e9-fdb8996c3ab2)
+
+
 as per the above image for example, as a backend API developer, you've created an API that is currently used by multiple clients. However, one client has requested some enhancements. Making changes to the API could impact all the clients using it. To avoid issues with all other clients, you'd like to ensure that any modifications don't disrupt their use of the existing API while accommodating the enhancement requests of the single client.
 
 Here are a few potential solutions we have in mind:
