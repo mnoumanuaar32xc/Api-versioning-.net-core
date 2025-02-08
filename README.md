@@ -42,4 +42,84 @@ Here are a few potential solutions we have in mind:
 2. **Specific Client Endpoint**: Provide a new endpoint tailored for the specific client's needs. While this addresses the individual client's request, it could lead to a change of endpoints, which is also not recommended.
 3. **Versioning the API**: Create a new API endpoint with versioning, allowing clients to choose which version to use by adjusting the version parameter in the URL. This is the recommended approach as it provides flexibility and minimal disruption to the existing clients.
 
+
+![image](https://github.com/user-attachments/assets/bde0fae2-c5d0-4c3d-bad0-567bf85fb080)
+
+![image](https://github.com/user-attachments/assets/029ba056-14cf-4f3b-a968-2754d35ab974)
+
+**Ist add the following nuget Pkgs**
+![image](https://github.com/user-attachments/assets/2ecd8512-103c-4cae-b587-4aaa8cc5a1e2)
+**Add the ConfigureSwaggerOptions( Configures the Swagger generation options) class in your codde.**
+[Uploading ConfigureSwaggerOptions.cs…]()using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Primitives;
+using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.SwaggerGen;
+using System.Text;
+
+namespace FalconAPI
+{
+    /// <summary>
+    /// Configures the Swagger generation options.
+    /// </summary>
+    /// <remarks>This allows API versioning to define a Swagger document per API version after the
+    /// <see cref="IApiVersionDescriptionProvider"/> service has been resolved from the service container.</remarks>
+    public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
+    {
+        readonly IApiVersionDescriptionProvider provider;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ConfigureSwaggerOptions"/> class.
+        /// </summary>
+        /// <param name="provider">The <see cref="IApiVersionDescriptionProvider">provider</see> used to generate Swagger documents.</param>
+        public ConfigureSwaggerOptions(IApiVersionDescriptionProvider provider) => this.provider = provider;
+
+        /// <inheritdoc />
+        public void Configure(SwaggerGenOptions options)
+        {
+            // add a swagger document for each discovered API version
+            // note: you might choose to skip or document deprecated API versions differently
+            foreach (var description in provider.ApiVersionDescriptions)
+            {
+                options.SwaggerDoc(description.GroupName, CreateInfoForApiVersion(description));
+            }
+        }
+
+        static OpenApiInfo CreateInfoForApiVersion(ApiVersionDescription description)
+        {
+            var info = new OpenApiInfo()
+            {
+                Title = "Felcon Web API",
+                Version = description.ApiVersion.ToString(),
+                Description = "Clean Architecture Web Api ",
+                Contact = new OpenApiContact() { 
+                            Name = "Muhammad Nouman Khan ",
+                            Email = "mnoumanuaar@yahoo.com" },
+                License = new OpenApiLicense() { Name = "FalconSoft technologies| +971507680943", Url = new Uri("https://github.com/mnoumanuaar32xc") }
+            };
+
+            if (description.IsDeprecated)
+            {
+                info.Description += " This API version has been deprecated.";
+            }
+
+            return info;
+        }
+    }
+
+}
+
+
+**Register the Api versioning and versioning api explorer in Program.Cs**
+![image](https://github.com/user-attachments/assets/9f7a3485-cc9c-407b-9021-cdc202752258)
+
+![image](https://github.com/user-attachments/assets/df3d007d-21be-495a-9460-9dd753fdffa3)
+
+
+
+
+
+
+
+
    
