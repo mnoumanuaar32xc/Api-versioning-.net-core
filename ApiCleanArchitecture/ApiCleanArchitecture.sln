@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1733B90D-3B89-464F-B076-5AAF0E00CE26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{4BDE39AE-5DBB-47A8-B929-36E7A4AF5376}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9F19DCDE-9662-4BB7-B278-08E5C89DF425}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{69A923DB-7F22-4370-856A-F4611ED0FC89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{08D12324-E38A-41F9-8559-98DD8D0ADD4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{868BD600-AE7E-4B31-B8DB-6B08481CEE06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FalconAPI", "FalconAPI\FalconAPI.csproj", "{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BDE39AE-5DBB-47A8-B929-36E7A4AF5376} = {1733B90D-3B89-464F-B076-5AAF0E00CE26}
+		{9F19DCDE-9662-4BB7-B278-08E5C89DF425} = {1733B90D-3B89-464F-B076-5AAF0E00CE26}
+		{69A923DB-7F22-4370-856A-F4611ED0FC89} = {1733B90D-3B89-464F-B076-5AAF0E00CE26}
+		{08D12324-E38A-41F9-8559-98DD8D0ADD4E} = {1733B90D-3B89-464F-B076-5AAF0E00CE26}
+		{868BD600-AE7E-4B31-B8DB-6B08481CEE06} = {08D12324-E38A-41F9-8559-98DD8D0ADD4E}
+		{64FCC8B7-C956-40DA-ADE9-3F05DDB5AD8C} = {868BD600-AE7E-4B31-B8DB-6B08481CEE06}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA6B3130-A585-4424-9066-35876BE1CAA1}
+	EndGlobalSection
+EndGlobal
