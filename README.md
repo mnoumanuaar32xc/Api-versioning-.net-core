@@ -117,6 +117,8 @@ namespace FalconAPI
 ![image](https://github.com/user-attachments/assets/df3d007d-21be-495a-9460-9dd753fdffa3)
 
 
+**OutPut in Swagger**
+![image](https://github.com/user-attachments/assets/337bd9a2-d90d-400b-9bed-cf86ad44f320)
 
 
 
